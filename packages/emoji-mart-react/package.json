@@ -14,7 +14,7 @@
   "main": "dist/main.js",
   "module": "dist/module.js",
   "scripts": {
-    "build": "parcel build --no-autoinstall",
+    "build": "node init && parcel build --no-autoinstall",
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
